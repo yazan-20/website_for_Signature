@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font:  sans-serif;
+   
+}
+
+header{
+    width: auto;
+    height: 100px;
+    overflow: auto;
+   margin-top: auto;
+   background-color: #171717;
+ 
+}
+
+.logo{
+    
+    float: left;
+    
+    
+}
+.logo .logo-img{
+
+    margin-left: 20px;
+    margin-top: 35px;
+width: 130px;
+height: 90px;
+
+}
+
+
+nav{
+    float: right;
+    margin-top: 2%;
+  
+}
+
+nav ul{
+
+    width: auto;
+    overflow: auto;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 15px;
+    font-family: cursive;
+
+    
+   
+}
+
+
+
+
+nav ul li:hover{
+    border: 1px solid rgb(139, 131, 110);
+  background-color: gold;
+
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+/*-----------------------------------------Definition ------------------------------------------------------------------------------*/
+
+
+
+.Definition
+{
+  background-image: url("./imgess/NEWGG.jpg");
+  margin-top: 50px;
+}
+
+.pure
+{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+ 
+
+}
+
+.Aboutus
+{
+    position: relative;
+    bottom: -6em;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+
+}
+
+
+.text{
+    margin-top: 1%;
+    
+
+}
+
+.text{
+    position: relative;
+    bottom: -10em;
+
+    color: rgb(97, 95, 99);
+    text-align: center;
+    font-size: 14px;
+    font-family: cursive;
+   
+
+   
+
+    
+}
+
+
+.menu
+{
+    position: relative;
+    bottom: -11em;
+    background-color:#DCDCDC;
+    text-align: center;
+    color: gray;
+    margin-bottom: 4%;
+
+    
+
+    
+    
+}
+
+
+section
+{
+    background-color: rgba(169, 169, 169, 0.616);
+    height: 200px;
+    width: 250px;
+
+    margin: 200px auto 0 auto;
+    margin-left: 5rem;
+    padding: 1rem;
+
+
+    position: relative;
+    transition: all 1s;
+
+border-radius: 12px;
+display: inline-block;
+
+
+font-family:initial;
+color: rgb(77, 75, 72);
+
+
+
+
+}
+
+
+section:hover
+{
+
+
+    height: 400px;
+}
+
+
+img
+{
+    width: 250px;  
+    height: 300px ;
+  
+  
+    position: absolute;
+    left: 50px;
+    top: -30px;
+  
+    transition: all 0.5s;
+
+    border-radius: 12px;
+  
+   
+
+   
+  
+  }
+
+  
+section:hover img 
+{
+    top: -100px;
+  
+    border-radius: 50%;
+
+  
+    transform: rotate(720deg);
+    
+
+}
+
+
+.container
+{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+
+
+    text-align: center;
+    
+   
+    opacity: 0 ;
+
+    transition: all 2s;
+       
+
+}
+
+
+section:hover .container{
+    opacity: 1;
+    
+
+}
+
+
+.foot{
+
+    position: relative;
+    width: 100;
+    height: 300px;
+    padding: 20px;
+    color: #000;
+    margin-top:60px ;
+    margin-left: 30px;
+    margin-right: 20px;
+
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding:   400px 300px  400px 300px;
+    padding: 100px;
+ 
+   
+}
+
+   .shape {
+
+    position: relative;
+    width: 100;
+    height: 450px;
+    background-color: black;
+    margin-top: 70px;
+   }
+   .fruit-img img{
+  
+  margin-left: 43%;
+  margin-top: 56px;
+ height: 150px;
+ width: 150px;
+   }
+   .info-fruit{
+
+    text-align: center;
+    position: absolute;
+    padding-top: 230px;
+    right: 350px;
+    color: white;
+   }
+
+   .info h3 {
+
+    padding-top: 40px;
+   }
+.problem{
+
+    position: relative;
+   left: 20px;
+
+ }
+
+
+ .Conttext
+ {
+
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    position: absolute;
+    /*left: : 5px;*/
+}
+
+
+.contpra{
+
+    font-size: 20px;
+    font-family: cursive;
+    position: relative;
+    bottom: -3em;
+    
+
+}
+.Conttext-logo-signature {
+ 
+    width: 380px;
+height: 120px;
+margin-left: 140px;
+margin-top: 330px;
+    
+}
+
+.split {
+
+    width: 2px;
+    height: 340px;
+    background-color: black;
+    color: black;
+    position: absolute;
+    right:500px;
+}
+
+
+.radio
+{
+   position: absolute;
+   top: 100px;
+   right: 100px;
+   font-family: cursive;
+
+}
+
+
+.contact form {
+    position: absolute;
+    top: 160px;
+   right: 150px;
+   
+    
+}
+
+
+.btn{
+    margin: 1px; 
+    width: 260px; 
+    height: 40px;
+    
+    color: white;
+  background-color: black;
+    border-radius: 5px;
+  
+  
+    
+  }
+
+  
+.btn a
+{
+    text-decoration: none;
+    font-size: 20px ;
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+}
+
+
+.namee input
+{
+
+   
+    margin: 1%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: rgb(248, 246, 248) ;
+    padding-left: 50px;
+    border: solid black;
+    
+}
+
+
+.texta{
+    margin: 1%;
+    width: 200px;
+    height: 150px;
+    border: none;
+    background: rgb(248, 246, 248) ;
+    padding-left: 50px;
+    border: solid black;
+
+}
+
+.media{
+    font-size: 24px;
+    text-align: center;
+    background-color:lightgray ;
+    margin-top: 80px;
+   height: 100px;
+   padding: 10px;
+    margin-bottom: 20px;
+}
+.media h3 {
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.media .fab {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+}
+.media .fab:hover{
+    cursor: pointer;
+    transform: rotate(80deg);
+    transition: all 0.5s;
+}
+.info{
+    text-align: center;
+   background-color:black;
+   color:white
+}
+.Developed{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding-bottom: 10px;
+    font-family: cursive;
+}
+.media{
+    text-align: center;
+    font-size: 15px;
+
+    
+}
+
+@media   (max-width:1024px) {
+    .fruit-img img {
+        margin-left: 30%;
+        margin-top: 50px;
+       height: 150px;
+       width: 150px;
+    }
+    .info-fruit{
+        text-align: center;
+        position: absolute;
+        padding-top: 230px;
+        right: 150px;
+        color: white;
+        }
+        .Conttext
+        {
+       
+           font-size: 20px;
+           font-family: cursive;
+         left: 10px;
+        
+       }
+     
+       .problem{
+
+        position: relative;
+       left: 10px;
+    
+     }
+     .contpra{
+
+        font-size: 13px;
+        font-family: cursive;
+        right: 120px;
+        
+    }
+    .Conttext-logo-signature{
+
+        width: 180px;
+        height: 90px;
+        margin-left: 20px;
+        margin-top: 250px;
+    }
+
+    .radio
+{
+   position: absolute;
+   top: 110px;
+   right: 10px;
+   font-family: cursive;
+   font-size: 12px;
+ 
+}
+.contact form {
+    position: absolute;
+    top: 160px;
+   right: 30px;
+   
+    
+}
+.split {
+
+    width: 2px;
+    height: 340px;
+    background-color: black;
+    color: black;
+    position: absolute;
+    right: 350px;
+}
+}
+@media   (max-width:812px) {
+    .info-fruit{
+        text-align: center;
+        position: absolute;
+        padding-top: 230px;
+        right: 90px;
+        color: white;
+       
+        }
+        .info-fruit p {
+
+            
+        }
+        .fruit-img img {
+            margin-left: 30%;
+            margin-top: 50px;
+           height: 150px;
+           width: 150px;
+        }
+        .Conttext
+        {
+       
+           font-size: 10px;
+           font-family: cursive;
+          right: 210px;
+         
+        
+       }
+       .contpra{
+
+        font-size: 10px;
+        font-family: cursive;
+        right: 120px;
+        
+    }
+    .Conttext-logo-signature{
+
+        width: 120px;
+        height: 50px;
+       margin-left: -50px;
+        margin-top: 250px;
+  
+    }
+
+    .radio
+    {
+       position: absolute;
+       top: 110px;
+       right: -25px;
+       font-family: cursive;
+       font-size: 9px;
+     
+    }
+    .contact form {
+        position: absolute;
+        top: 160px;
+       right: -30px;
+       width: 180px;
+        
+    }
+    .contact form input {
+
+        height: 20px;
+        width: 50px;
+      
+    } 
+    .contact form textarea {
+
+        height: 120px;
+        width: 50px;
+    }
+    .btn{
+   right: 78px;
+    width: 100px; 
+    height: 40px;
+    position: absolute;
+    color: white;
+  background-color: black;
+    border-radius: 5px;
+    }
+    nav {
+        display: none;
+    }
+
+}
